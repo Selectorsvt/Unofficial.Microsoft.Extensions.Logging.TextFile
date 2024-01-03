@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+	<TargetFrameworks>net48;netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
+    <PackageDescription>This package adds a file logging!</PackageDescription>
+	<Authors>Selectorsvt</Authors>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Selectorsvt/Unofficial.Microsoft.Extensions.Logging.TextFile</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+  	<None Include="..\$(PackageLicenseFile)" Pack="true" PackagePath=""/>
+  	<None Include="..\$(PackageReadmeFile)" Pack="true" PackagePath=""/>
+  </ItemGroup>
+</Project>
